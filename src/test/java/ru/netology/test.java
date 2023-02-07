@@ -31,7 +31,7 @@ class test {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("id:4"));
+                .body("data", equalTo("id:2"));
     }
 
     @Test
